@@ -15,7 +15,15 @@ React Native requires different versions of the tools/languages you might be usi
 
 ## Development workflow
 
-To get started with the project, run `yarn bootstrap` in the root directory to install the required dependencies for each package:
+To get started with the project, run `yarn` in the root directory to install the required dependencies for each package:
+
+Next, run `yarn bootstrap` to install required dependencies for the example apps:
+
+```sh
+yarn bootstrap
+```
+
+Build the packages in the monorepo to use throughout the example apps: 
 
 ```sh
 yarn bootstrap
